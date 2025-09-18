@@ -56,8 +56,21 @@ Race ()
       bool isWinner();
       };
 
+`void advance()`
+
+flip a coin (0 and 1) and add it to the **position of the horse** who's **id** is passed into this function.
+return the value of the horse's position. 
+`printLane()`
+    for i from zero to TRACK_LENGTH
+        if current loop index is equal to the horse's value
+            print horse's number'
+        else:
+            print '.'
+        
+
+
       
-  Main
-    seed random generator
-    inititaterace instance and start the race
+  `Main`
+  seed random generator
+  inititaterace instance and start the race
 
