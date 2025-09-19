@@ -1,0 +1,5 @@
+#include <iostream>
+#include "horse.h"
+#include "race.h"
+
+//random number generator seed
